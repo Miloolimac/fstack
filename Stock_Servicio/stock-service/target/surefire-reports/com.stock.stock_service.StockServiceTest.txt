@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.stock.stock_service.StockServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.048 s -- in com.stock.stock_service.StockServiceTest
