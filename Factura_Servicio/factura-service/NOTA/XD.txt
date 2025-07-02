@@ -1,0 +1,8 @@
+| Método | URL                            | Descripción                              | Body Ejemplo (POST/PUT)                                           |
+| ------ | ------------------------------ | ---------------------------------------- | ----------------------------------------------------------------- |
+| GET    | `/factura`                     | Listar todas las facturas                | -                                                                 |
+| GET    | `/factura/{id}`                | Obtener factura por ID                   | -                                                                 |
+| POST   | `/factura`                     | Crear una nueva factura                  | `{ "fechaEmision": "2024-06-01", "total": 5000, "usuarioId": 1 }` |
+| PUT    | `/factura/{id}`                | Actualizar una factura existente         | `{ "fechaEmision": "2024-06-02", "total": 5500, "usuarioId": 1 }` |
+| DELETE | `/factura/{id}`                | Eliminar factura por ID                  | -                                                                 |
+| GET    | `/factura/usuario/{usuarioId}` | Listar facturas de un usuario específico | -                                                                 |
