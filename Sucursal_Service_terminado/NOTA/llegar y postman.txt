@@ -1,0 +1,7 @@
+| Método | URL                                   | Descripción                           | Body Ejemplo (POST)                                                               |
+| ------ | ------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------------- |
+| POST   | `http://localhost:8007/sucursal`      | Crear una nueva sucursal              | `{ "nombre": "Sucursal Central", "direccion": "Av. 123", "telefono": 987654321 }` |
+| GET    | `http://localhost:8007/sucursal`      | Listar todas las sucursales           | -                                                                                 |
+| GET    | `http://localhost:8007/sucursal/{id}` | Obtener sucursal por ID (con HATEOAS) | -                                                                                 |
+| DELETE | `http://localhost:8007/sucursal/{id}` | Eliminar sucursal por ID              | -                                                                                 |
+	-
